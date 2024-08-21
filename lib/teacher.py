@@ -28,5 +28,5 @@ class Teacher(User):
     "pipenv install pipenv shell",
     "pytest -x flag to fail fast",
     ]):
-        index = random.randint(1, len(knowledge) - 1)
+        index = random.randint(1, len(knowledge))
         return knowledge[index]

@@ -7,6 +7,6 @@ class Student(User):
         super().__init__(first_name, last_name)
         self.knowledge = knowledge
     
-    def learn(self, string = " "):
+    def learn(self, string=str()):
         self.string = string
         self.knowledge.append(string)
